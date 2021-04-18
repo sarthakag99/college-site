@@ -139,15 +139,15 @@
 	}
 
 	.nav-links.active {
-		background: blue;
+		background: red;
 		left: 0;
 	}
 
-	.nav-item {
+	/* .nav-item {
 		padding: 10px 0;
 		border-top: 1px solid red;
 		border-bottom: 1px solid red;
-	}
+	} */
 
 	.nav-icon {
 		display: flex;
