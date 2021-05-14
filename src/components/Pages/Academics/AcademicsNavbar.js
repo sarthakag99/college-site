@@ -4,32 +4,56 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 
 import './styles.css';
 import Homepage from './SubPages/HomePage';
+import UnderGraduate from './SubPages/UnderGraduate';
+import PostGraduate from './SubPages/PostGraduate';
+import Phd from './SubPages/Phd';
+import Faculty from './SubPages/Faculty';
+import Staff from './SubPages/Staff';
+import Scholar from './SubPages/Scholar';
+import AboutUs from './SubPages/AboutUs';
+import TimeTable from './SubPages/TimeTable';
+import DepartmentalDirectory from './SubPages/DepartmentalDirectory';
+import Events from './SubPages/Events';
+import Contact from './SubPages/Contact';
+import QuickLinks from './SubPages/QuickLinks';
 const NavDropdownExample = () => {
     // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
-    const [homePage, setHomePage] = useState(false);
-    const onClick1 = () => { setHomePage(true); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); }
+    const [homePage, setHomePage] = useState(true); 
+    const onClick1 = () => { setHomePage(true); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [underGraduate, setUnderGraduate] = useState(false);
-    const onClick2 = () => { setHomePage(false); setUnderGraduate(true); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); }
+    const onClick2 = () => { setHomePage(false); setUnderGraduate(true); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [postGraduate, setPostGraduate] = useState(false);
-    const onClick3 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(true); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); }
+    const onClick3 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(true); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [phd, setPhd] = useState(false);
-    const onClick4 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(true); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); }
+    const onClick4 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(true); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [faculty, setFaculty] = useState(false);
-    const onClick5 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(true); setStaff(false); setScholar(false); setAboutUs(false); }
+    const onClick5 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(true); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [staff, setStaff] = useState(false);
-    const onClick6 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(true); setScholar(false); setAboutUs(false); }
+    const onClick6 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(true); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [scholar, setScholar] = useState(false);
-    const onClick7 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(true); setAboutUs(false); }
+    const onClick7 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(true); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [aboutUs, setAboutUs] = useState(false);
-    const onClick8 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(true); }
+    const onClick8 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(true); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
+
+    const [timeTable, setTimeTable] = useState(false);
+    const onClick9 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(true); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(true); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
+
+    const [departmentalDirectory, setDepartmentalDirectory] = useState(false);
+    const onClick10 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(true); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(true); setEvents(false); setContact(false); }
+
+    const [events, setEvents] = useState(false);
+    const onClick11 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(true); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(true); setContact(false); }
+
+    const [contact, setContact] = useState(false);
+    const onClick12 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(true); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(true); }
     return (
         <div>
             <Nav className="nav">
@@ -46,7 +70,7 @@ const NavDropdownExample = () => {
                 <NavDropdown className="nav-item1" title="People" id="nav-dropdown">
                     <NavDropdown.Item onClick={onClick5} className="drop">Faculty</NavDropdown.Item>
                     <NavDropdown.Item onClick={onClick6} className="drop">Staff</NavDropdown.Item>
-                    <NavDropdown.Item onClick={onClick7} className="drop">Scholars</NavDropdown.Item>
+                    {/* <NavDropdown.Item onClick={onClick7} className="drop">Scholars</NavDropdown.Item> */}
                 </NavDropdown>
                 <Nav.Item className="nav-item">
                     <Nav.Link onClick={onClick8} title="Item">
@@ -57,76 +81,46 @@ const NavDropdownExample = () => {
             </Nav>
             <div className="main-div">
                 
-                <div onClick={onClick1}>
+                <div>
                     {homePage ? <Homepage /> : null}
                 </div>
-                <div onClick={onClick2}>
+                <div>
                     {underGraduate ? <UnderGraduate /> : null}
                 </div>
-                <div onClick={onClick3}>
+                <div>
                     {postGraduate ? <PostGraduate /> : null}
                 </div>
-                <div onClick={onClick4}>
+                <div>
                     {phd ? <Phd /> : null}
                 </div>
-                <div onClick={onClick5}>
+                <div>
                     {faculty ? <Faculty /> : null}
                 </div>
-                <div onClick={onClick6}>
+                <div>
                     {staff ? <Staff /> : null}
                 </div>
-                <div onClick={onClick7}>
+                <div>
                     {scholar ? <Scholar /> : null}
                 </div>
-                <div onClick={onClick8}>
+                <div>
                     {aboutUs ? <AboutUs /> : null}
+                </div>
+                <div>
+                    {timeTable ? <TimeTable /> : null}
+                </div>
+                <div>
+                    {departmentalDirectory ? <DepartmentalDirectory /> : null}
+                </div>
+                <div>
+                    {events ? <Events /> : null}
+                </div>
+                <div>
+                    {contact ? <Contact /> : null}
+                   
                 </div>
             </div>
         </div>
     );
 }
-
-
-const UnderGraduate = () => (
-    <div id="results" className="search-results">
-        UnderGraduate
-    </div>
-)
-const PostGraduate = () => (
-    <div id="results" className="search-results">
-        PostGraduate
-    </div>
-)
-const Phd = () => (
-    <div id="results" className="search-results">
-        Phd
-    </div>
-)
-const Faculty = () => (
-    <div id="results" className="search-results">
-        Faculty
-    </div>
-)
-const Staff = () => (
-    <div id="results" className="search-results">
-        Staff
-    </div>
-)
-
-const Scholar = () => (
-    <div id="results" className="search-results">
-        Scholar
-    </div>
-)
-const AboutUs = () => (
-    <div id="results" className="search-results">
-        AboutUs
-    </div>
-)
-
-
-
-
-
 
 export default NavDropdownExample;

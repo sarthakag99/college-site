@@ -1,79 +1,16 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table'
 import '../styles.css'
+import QuickLinks from './QuickLinks';
 const Homepage = () => (
     <div class='float-contanier'>
         <div className="float-child1" style={{ marginTop: '10px', width: '200px', position: 'fixed' }}>
-            <Table striped bordered hover>
-                <thead>
-                    <tr style={{ backgroundColor: 'red' }}>
-                        <th>Quick Links</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <a href="#about">
-                            <td>
-                                About
-                            </td>
-                        </a>
-
-                    </tr>
-                    <tr>
-
-                        <a download href="uploadedFiles/ECE-UG-Curiculum-Y17.xlsx">
-                            <td>
-                                Courses Offered
-                            </td>
-                        </a>
-                    </tr>
-                    <tr>
-                        <a href="#timeTable">
-                            <td>
-                                Time Table
-                            </td>
-                        </a>
-
-                    </tr>
-                    <tr>
-                        <a href="#directory">
-                            <td>
-                                Departmental Directory
-                            </td>
-                        </a>
-
-                    </tr>
-                    <tr>
-                        <a href="#events">
-                            <td>
-                                Events
-                            </td>
-                        </a>
-
-                    </tr>
-                    <tr>
-                        <a href="#contact">
-                            <td>
-                                Contact Us
-                            </td>
-                        </a>
-
-                    </tr>
-                    <tr>
-                        
-                        <a download href="uploadedFiles/CNGCN.pdf">
-                            <td>
-                                CNGCN Brochure
-                            </td>
-                        </a>
-                    </tr>
-                </tbody>
-            </Table>
+            <QuickLinks/>
         </div>
-        <div className="search-results float-child2">
-            <div id="about" >
+        <div style={{ marginRight: '15px'}} className="search-results float-child2">
+            <div>
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Welcome to ECE</h1>
-                {/* <hr></hr> */}
+                <hr></hr>
                 <h3 style={{ textDecoration: 'underline red' }}>Vision :</h3>
                 
                 <p>
@@ -89,15 +26,7 @@ const Homepage = () => (
                         <li>To promote life-long learning, and to preserve academic freedom, honesty and justice.</li>
                     </ul>
                 </p>
-                <p>
-                    <ul>
-                        <li>To impart, both in depth and content, the basic fundamental knowledge and understanding in the area of Electronics and Communication Engineering.</li>
-                        <li>To keep students fully tuned to the pace of growth of the modern trends of technology and their applications along with the challenging issues.</li>
-                        <li>To motivate students toward developing innovative approaches to learning and toward applying scientific and engineering skills for providing solutions to real-life challenges relevant to the societal and industry needs of the country.</li>
-                        <li>To motivate students and faculty to pursue higher research and to become an integral part of the process of conducting collaborative research.</li>
-                        <li>To promote life-long learning, and to preserve academic freedom, honesty and justice.</li>
-                    </ul>
-                </p>
+               
                 <h3 style={{ textDecoration: 'underline red' }}>Objectives :</h3>
                 <p>
                     <ul>
@@ -116,7 +45,7 @@ const Homepage = () => (
             </div>
 
 
-            <div id="timeTable">
+            {/* <div id="timeTable">
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Time Table</h1>
                 
                 <h5 style={{ textDecoration: 'underline red' }}>Cobmined Time Table</h5>
@@ -142,8 +71,8 @@ const Homepage = () => (
                 <a style={{textAlign:'left'}} download href="uploadedFiles\ECE-Department-LAB-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
                 <a style={{textAlign:'left'}} href="#timeTable">EVEN</a>
                 </ul>
-            </div>
-            <div id="directory">
+            </div> */}
+            {/* <div id="directory">
 
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Departmental Directory</h1>
                 <Table striped bordered hover size="sm">
@@ -152,7 +81,7 @@ const Homepage = () => (
                             <th>#</th>
                             <th>NAME</th>
                             <th>DESIGNATION</th>
-                            <th>CABIN / BLOCK</th>
+                            <th>CABIN/ BLOCK</th>
                             <th>INTER No.</th>
                             <th>QTR. No.</th>
                             <th>Residence Ext.</th>
@@ -322,8 +251,8 @@ const Homepage = () => (
                         </tr>
                     </tbody>
                 </Table>
-            </div>
-            <div id="events">
+            </div> */}
+            {/* <div id="events">
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Conferences Workshops organized / planned</h1>
                 <Table striped bordered hover size="sm">
                     <thead>
@@ -415,11 +344,11 @@ const Homepage = () => (
                         </tr>
                     </tbody>
                 </Table>
-            </div>
+            </div> */}
 
 
-            <div id="contact">
-                <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Contact Us</h1>
+            {/* <div id="contact">
+                <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Contact</h1>
                 <h3 style={{ textDecoration: 'underline red' }}>Postal Address :</h3>
                 <p>
                     Head of Department,<br></br>
@@ -430,7 +359,7 @@ const Homepage = () => (
                     Jaipur-302031,<br></br>
                     (Rajasthan) INDIA<br></br>
                 </p>
-            </div>
+            </div> */}
 
         </div>
     </div>
