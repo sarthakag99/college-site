@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+import AcademicsNavbar from './AcademicsNavbar';
 const Academics = () => {
     return (
         <div>
-            Academics Page
+            <AcademicsNavbar/>
         </div>
     )
 }
+
+
+
+
 
 export default Academics;

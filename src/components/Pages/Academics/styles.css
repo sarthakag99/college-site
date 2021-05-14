@@ -1,0 +1,39 @@
+.nav {
+    background-color: black;
+    /* position: fixed; */
+}
+
+
+.nav-item:hover{
+    background-color: white;
+}
+body{
+    
+    overflow: scroll;
+    /* border:'1px solid red';
+    width:'500px';
+    float: 'left';
+    height:'500px';
+    position:'relative'; */
+}
+.main-div {
+    margin-left: 10px;
+    
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child1 {
+    width: 20%;
+    float: left;
+    /* padding: 20px; */
+}  
+
+.float-child2 {
+    width: 80%;
+    float: right;
+    /* padding: 20px; */
+    
+}  
