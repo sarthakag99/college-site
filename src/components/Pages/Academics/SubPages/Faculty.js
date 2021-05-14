@@ -4,9 +4,9 @@ import '../styles.css'
 import QuickLinks from './QuickLinks';
 const Faculty = () => (
     <div class='float-contanier'>
-        <div className="float-child1" style={{ marginTop: '10px', width: '200px', position: 'fixed' }}>
+        {/* <div className="float-child1" style={{ marginTop: '10px', width: '200px', position: 'fixed' }}>
             <QuickLinks />
-        </div>
+        </div> */}
         <div style={{ marginRight: '15px' }} className="search-results float-child2">
             <div>
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Faculty List</h1>

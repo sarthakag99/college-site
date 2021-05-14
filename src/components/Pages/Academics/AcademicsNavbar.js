@@ -44,16 +44,17 @@ const NavDropdownExample = () => {
     const onClick8 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(true); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [timeTable, setTimeTable] = useState(false);
-    const onClick9 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(true); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(true); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
+    const onClick9 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(true); setDepartmentalDirectory(false); setEvents(false); setContact(false); }
 
     const [departmentalDirectory, setDepartmentalDirectory] = useState(false);
-    const onClick10 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(true); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(true); setEvents(false); setContact(false); }
+    const onClick10 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(true); setEvents(false); setContact(false); }
 
     const [events, setEvents] = useState(false);
-    const onClick11 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(true); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(true); setContact(false); }
+    const onClick11 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(true); setContact(false); }
 
     const [contact, setContact] = useState(false);
-    const onClick12 = () => { setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(true); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(true); }
+    const onClick12 =()=>{ setHomePage(false); setUnderGraduate(false); setPostGraduate(false); setPhd(false); setFaculty(false); setStaff(false); setScholar(false); setAboutUs(false); setTimeTable(false); setDepartmentalDirectory(false); setEvents(false); setContact(true);}
+
     return (
         <div>
             <Nav className="nav">
@@ -77,8 +78,15 @@ const NavDropdownExample = () => {
                         About Us
                     </Nav.Link>
                 </Nav.Item>
-
             </Nav>
+            <div className="float-child1" style={{ marginTop: '10px', width: '200px', position: 'fixed' }}>
+                <QuickLinks 
+                    parentCallback9={onClick9}
+                    parentCallback10={onClick10}
+                    parentCallback11={onClick11}
+                    parentCallback12={onClick12}
+                />
+            </div>
             <div className="main-div">
                 
                 <div>
