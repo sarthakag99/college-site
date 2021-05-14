@@ -10,7 +10,7 @@ const Homepage = () => (
         <div style={{ marginRight: '15px'}} className="search-results float-child2">
             <div>
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Welcome to ECE</h1>
-                <hr></hr>
+                <hr></hr><br></br>
                 <h3 style={{ textDecoration: 'underline red' }}>Vision :</h3>
                 
                 <p>

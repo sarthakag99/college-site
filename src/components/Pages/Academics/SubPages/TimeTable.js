@@ -6,7 +6,7 @@ const TimeTable = () => (
     <div class='float-contanier'>
         <div style={{ marginRight: '15px' }} className="search-results float-child2">
             <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Time Table</h1>
-            
+            <hr></hr><br></br>
             <h5 style={{ textDecoration: 'underline red' }}>Cobmined Time Table</h5>
             <ul>
             <a style={{textAlign:'left'}} download href="uploadedFiles\ECE-CCE-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>

@@ -11,7 +11,7 @@ const Staff = () => (
             <div>
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Staff</h1>
                 <hr></hr>
-               
+                <br></br>
                 <div >
                     
                     <Table striped bordered hover size="sm">

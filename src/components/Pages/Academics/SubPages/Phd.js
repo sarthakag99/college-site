@@ -10,7 +10,7 @@ const Phd = () => (
         <div style={{ marginRight: '15px' }} className="search-results float-child2">
             <div>
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Phd</h1>
-                <hr></hr>
+                <hr></hr><br></br>
                 <h3 style={{ textDecoration: 'underline red' }}>Ph D Programme students with:</h3>
 
                 <p>

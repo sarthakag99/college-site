@@ -9,6 +9,7 @@ const Contact = () => (
         </div> */}
         <div style={{ marginRight: '15px' }} className="search-results float-child2">
             <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Contact</h1>
+            <hr></hr><br></br>
             <h3 style={{ textDecoration: 'underline red' }}>Postal Address :</h3>
             <p>
                 Head of Department,<br></br>

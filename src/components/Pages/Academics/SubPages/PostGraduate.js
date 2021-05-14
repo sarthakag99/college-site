@@ -11,7 +11,7 @@ const PostGraduate = () => (
             <div>
                 <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Post Graduate</h1>
                 <hr></hr>
-                
+                <br></br>
 
                 <p>
                 M. Tech Programme students, irrespective of their discipline, must do a minimum of 32 credits through course work and a minimum of 36 credits through research (thesis) work. M. S. (by Research) Programme students, irrespective of their discipline, must do a minimum of 16 credits through course work and a minimum of 48 credits through research (thesis) work. PG Programme students come to LNMIIT from different institutions across India. Keeping their diversified background in mind LNMIIT PG Programmes offer 3 to 4 mandatory courses that will provide a common and strong foundation to all the students.<br></br>

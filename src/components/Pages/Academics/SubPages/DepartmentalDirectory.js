@@ -6,6 +6,7 @@ const DepartmentalDirectory = () => (
     <div class='float-contanier'>
         <div style={{ marginRight: '15px' }} className="search-results float-child2">
             <h1 style={{ marginTop: '10px', marginBottom: '10px', backgroundColor: 'red', color: 'white', padding: '5px', }}>Departmental Directory</h1>
+            <hr></hr><br></br>
             <Table striped bordered hover size="sm">
                 <thead>
                     <tr>
