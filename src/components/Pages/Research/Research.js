@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+import ResearchNavbar from './ResearchNavbar';
 const Research = () => {
     return (
         <div>
-            Research Page
+            <ResearchNavbar/>
         </div>
     )
 }

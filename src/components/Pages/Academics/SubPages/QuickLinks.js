@@ -26,7 +26,7 @@ const QuickLinks = (props) => {
     }
     
     return (
-        <Table striped bordered hover>
+        <Table striped bordered hover size="sm">
             <thead>
                 <tr style={{ backgroundColor: 'red' }}>
                     <th>Quick Links</th>
