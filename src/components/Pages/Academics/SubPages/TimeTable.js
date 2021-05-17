@@ -9,25 +9,25 @@ const TimeTable = () => (
             <hr></hr><br></br>
             <h5 style={{ textDecoration: 'underline red' }}>Cobmined Time Table</h5>
             <ul>
-            <a style={{textAlign:'left'}} download href="uploadedFiles\ECE-CCE-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
+            <a style={{textAlign:'left'}} target="_blank" href="uploadedFiles\Academics\ECE-CCE-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
             <a style={{textAlign:'left'}} href="#timeTable">EVEN</a>
             </ul>
 
             <h5 style={{ textDecoration: 'underline red',marginTop:'5px' }}>ECE Time Table</h5>
             <ul>
-            <a style={{textAlign:'left'}} download href="uploadedFiles\ECE-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
+            <a style={{textAlign:'left'}} target="_blank" href="uploadedFiles\Academics\ECE-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
             <a style={{textAlign:'left'}} href="#timeTable">EVEN</a>
             </ul>
             
             <h5 style={{ textDecoration: 'underline red',marginTop:'5px' }}>CCE Time Table</h5>
             <ul>
-            <a style={{textAlign:'left'}} download href="uploadedFiles\CCE-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
+            <a style={{textAlign:'left'}} target="_blank" href="uploadedFiles\Academics\CCE-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
             <a style={{textAlign:'left'}} href="#timeTable">EVEN</a>
             </ul>
 
             <h5 style={{ textDecoration: 'underline red',marginTop:'5px' }}>Lab Time Table</h5>
             <ul>
-            <a style={{textAlign:'left'}} download href="uploadedFiles\ECE-Department-LAB-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
+            <a style={{textAlign:'left'}} target="_blank" href="uploadedFiles\Academics\ECE-Department-LAB-Time-Table-ODD-Sem-2018-19.pdf">ODD</a>
             <a style={{textAlign:'left'}} href="#timeTable">EVEN</a>
             </ul>
         </div>

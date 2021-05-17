@@ -35,7 +35,7 @@ const QuickLinks = (props) => {
             <tbody>
                 <tr>
 
-                    <a download href="uploadedFiles/ECE-UG-Curiculum-Y17.xlsx">
+                    <a target="_blank" href="uploadedFiles\Academics/ECE-UG-Curiculum-Y17.xlsx">
                         <td>
                             Courses Offered
                             </td>
@@ -80,7 +80,7 @@ const QuickLinks = (props) => {
                 </tr>
                 <tr>
 
-                    <a download href="uploadedFiles/CNGCN.pdf">
+                    <a target="_blank" href="uploadedFiles\Academics/CNGCN.pdf">
                         <td>
                             CNGCN Brochure
                         </td>

@@ -73,8 +73,8 @@ const UnderGraduate = () => (
 
                 <h3 style={{ textDecoration: 'underline red' }}>Semester Wise Curriculum</h3>
                 <ul>
-                    <a style={{ textAlign: 'left' }} download href="uploadedFiles\ECE-UG-Curiculum-Y17.xlsx">B.Tech. ECE</a>
-                    <a style={{ textAlign: 'left' }} href="uploadedFiles\CCE_UG_Curiculum.xlsx">B.Tech. CCE</a>
+                    <a style={{ textAlign: 'left' }} target="_blank" href="uploadedFiles\Academics\ECE-UG-Curiculum-Y17.xlsx">B.Tech. ECE</a>
+                    <a style={{ textAlign: 'left' }} href="uploadedFiles\Academics\CCE_UG_Curiculum.xlsx">B.Tech. CCE</a>
                 </ul>
             </div>
         </div>
